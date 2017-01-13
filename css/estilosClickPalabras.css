@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.palabrerio > span{
+    cursor: pointer;
+}
+.hecho.aqua {
+    background-color: rgba(0,255,0,0.25);
+}
+.hecho.yellow{
+    background-color: rgba(255,0,0,0.25);
+}
+.retros, .retroFinal > div{
+    display: none;
+}
+.retroFinal.alert-success > div.exito{
+    display:block;
+}
+.retroFinal.alert-danger > div.error{
+    display:block;
+}
+.modal-footer, .modal-body{
+    text-align: center;
+}
+.mal{
+    color: red;
+    font-size: xx-large;
+    baseline-shift: sub;
+    position: relative;
+    top: 5px;
+}
